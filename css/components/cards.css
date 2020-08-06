@@ -1,0 +1,49 @@
+.card-product {
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 16px 36px rgba(0,0,0,0.2);
+}
+
+.card-product-info {
+  padding: 0 16px;
+}
+
+.card-product-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-product-top-image {
+  width: 50%;
+  background-size: cover;
+  position: relative;
+}
+
+.card-product-top-image .position-icon {
+  position: absolute;
+  top: 16px;
+  left: 8px;
+  color: red;
+  font-size: 25px;
+}
+
+.card-product-middle {
+  height: 100px;
+  width: 100%;
+  margin-top: 16px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-product-bottom {
+  margin: 16px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-product-bottom img {
+  height: 100px;
+  flex-basis: 32%;
+}
+
